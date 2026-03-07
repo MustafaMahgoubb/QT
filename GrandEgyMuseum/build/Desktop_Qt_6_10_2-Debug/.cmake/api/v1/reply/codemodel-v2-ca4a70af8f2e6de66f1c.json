@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1fd6b85ab0d0d2d704e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GrandEgyMuseum",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-ce3bfeb3009252b32c97.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2dd315a424d1650b3f89.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-0f128dfd45a9b4eda18a.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-140ebc744a6584b62c74.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-d040d60d5dc91ad5fa11.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum-Debug-493e193dacfe627d0b71.json",
+					"name" : "appGrandEgyMuseum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_autogen-Debug-9c19251a2b83ab16f5fb.json",
+					"name" : "appGrandEgyMuseum_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_autogen_timestamp_deps-Debug-14bd131c3a679b06b097.json",
+					"name" : "appGrandEgyMuseum_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_copy_qml-Debug-490c8db53628b4942c26.json",
+					"name" : "appGrandEgyMuseum_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_copy_res-Debug-c236955fee3abd8d0699.json",
+					"name" : "appGrandEgyMuseum_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_qmlimportscan-Debug-057eea02c2743e253509.json",
+					"name" : "appGrandEgyMuseum_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_qmllint-Debug-1ad7cba7116efe31c9bb.json",
+					"name" : "appGrandEgyMuseum_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_qmllint_json-Debug-2446268dfc0c07814167.json",
+					"name" : "appGrandEgyMuseum_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_qmllint_module-Debug-5d511b2b3cf1bf7691a6.json",
+					"name" : "appGrandEgyMuseum_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appGrandEgyMuseum_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appGrandEgyMuseum_qmltyperegistration-Debug-ad8cf4057cf4efc1cc1e.json",
+					"name" : "appGrandEgyMuseum_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-3600f943d9aa94de9cc4.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appGrandEgyMuseum_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appGrandEgyMuseum_aotstats_target-Debug-2e2047773e1ff6e4e824.json",
+					"name" : "module_appGrandEgyMuseum_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug",
+		"source" : "/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appGrandEgyMuseum_FILE /home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/appGrandEgyMuseum)
+set(__QT_DEPLOY_TARGET_appGrandEgyMuseum_TYPE EXECUTABLE)

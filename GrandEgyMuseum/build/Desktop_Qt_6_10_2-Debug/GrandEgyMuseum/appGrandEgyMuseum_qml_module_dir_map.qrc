@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/GrandEgyMuseum">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/GrandEgyMuseum</file>
+
+  </qresource>
+</RCC>

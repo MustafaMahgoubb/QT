@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/GrandEgyMuseum/">
+    <file alias="resource.qrc">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/resource.qrc</file>
+  </qresource>
+</RCC>
+

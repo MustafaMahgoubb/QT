@@ -1,0 +1,14 @@
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_GrandEgyMuseum.qrc
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appGrandEgyMuseum_raw_qml_0.qrc
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appGrandEgyMuseum_raw_res_0.qrc
+/qt/qml/GrandEgyMuseum/Main.qml
+/qt/qml/GrandEgyMuseum/screensQml/FalconStatueScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/GodPtahStatueScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/GoldenThroneScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/HomeScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/RamssesObselikScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/SplashScreen.qml
+/qt/qml/GrandEgyMuseum/screensQml/TutankhamunScreen.qml

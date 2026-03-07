@@ -1,0 +1,13 @@
+module GrandEgyMuseum
+typeinfo appGrandEgyMuseum.qmltypes
+prefer :/qt/qml/GrandEgyMuseum/
+Main 254.0 Main.qml
+FalconStatueScreen 254.0 screensQml/FalconStatueScreen.qml
+GodPtahStatueScreen 254.0 screensQml/GodPtahStatueScreen.qml
+GoldenThroneScreen 254.0 screensQml/GoldenThroneScreen.qml
+HomeScreen 254.0 screensQml/HomeScreen.qml
+RamssesObselikScreen 254.0 screensQml/RamssesObselikScreen.qml
+SplashScreen 254.0 screensQml/SplashScreen.qml
+TutankhamunScreen 254.0 screensQml/TutankhamunScreen.qml
+depends QtQuick
+

@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/BoatOfUkhhotepScreen.qml"
+                }
+            ],
+            "moduleId": "GrandEgyMuseum(appGrandEgyMuseum)"
+        }
+    ]
+}

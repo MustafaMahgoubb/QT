@@ -1,0 +1,15 @@
+-rootPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum
+-cmake-output
+-output-file
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appGrandEgyMuseum_build.cmake
+-importPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/GrandEgyMuseum
+-importPath
+/home/mustafa/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_GrandEgyMuseum.qrc
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appGrandEgyMuseum_raw_qml_0.qrc
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appGrandEgyMuseum_raw_res_0.qrc

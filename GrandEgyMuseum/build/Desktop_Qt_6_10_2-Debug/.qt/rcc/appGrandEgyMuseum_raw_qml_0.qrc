@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/GrandEgyMuseum/">
+    <file alias="Main.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/Main.qml</file>
+    <file alias="screensQml/FalconStatueScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/FalconStatueScreen.qml</file>
+    <file alias="screensQml/GodPtahStatueScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/GodPtahStatueScreen.qml</file>
+    <file alias="screensQml/GoldenThroneScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/GoldenThroneScreen.qml</file>
+    <file alias="screensQml/HomeScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/HomeScreen.qml</file>
+    <file alias="screensQml/RamssesObselikScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/RamssesObselikScreen.qml</file>
+    <file alias="screensQml/SplashScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/SplashScreen.qml</file>
+    <file alias="screensQml/TutankhamunScreen.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/GrandEgyMuseum/screensQml/TutankhamunScreen.qml</file>
+  </qresource>
+</RCC>
+

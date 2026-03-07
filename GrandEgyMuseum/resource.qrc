@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/videos">
+        <file alias="SPLASH_SCREEN">Rsrc/Videos/Splash_Screen.mp4</file>
+    </qresource>
+    <qresource prefix="/Images">
+        <file alias="BACKGROUND">Rsrc/Images/GEM.jpeg</file>
+        <file alias="GOLDEN_THRONE1">Rsrc/Images/ListView/Golden_Throne/Golden_Throne_1.png</file>
+        <file alias="RAMESSES_OBSELIK1">Rsrc/Images/ListView/Ramsses_Obselisk/Obelisk_of_King_Ramesses_II_1.png</file>
+        <file alias="GOD_PTAH_STATUE1">Rsrc/Images/ListView/Ptah/Statue_of_God_Ptah_1.png</file>
+        <file alias="FALCON_STATUE1">Rsrc/Images/ListView/Falcon/Statuette_of_Falcon_1.png</file>
+        <file alias="TUTANKHAMUN1">Rsrc/Images/ListView/Tutankhamun/Tutankhamun_1.png</file>
+        <file alias="GOLDEN_THRONE2">Rsrc/Images/ListView/Golden_Throne/Golden_Throne_2.png</file>
+        <file alias="GOLDEN_THRONE3">Rsrc/Images/ListView/Golden_Throne/Golden_Throne_3.png</file>
+        <file alias="GOLDEN_THRONE4">Rsrc/Images/ListView/Golden_Throne/Golden_Throne_4.png</file>
+        <file alias="GOD_PTAH_STATUE2">Rsrc/Images/ListView/Ptah/Statue_of_God_Ptah_2.png</file>
+        <file alias="GOD_PTAH_STATUE3">Rsrc/Images/ListView/Ptah/Statue_of_God_Ptah_3.png</file>
+        <file alias="GOD_PTAH_STATUE4">Rsrc/Images/ListView/Ptah/Statue_of_God_Ptah_4.png</file>
+        <file alias="TUTANKHAMUN2">Rsrc/Images/ListView/Tutankhamun/Tutankhamun_2.png</file>
+        <file alias="TUTANKHAMUN3">Rsrc/Images/ListView/Tutankhamun/Tutankhamun_3.png</file>
+        <file alias="TUTANKHAMUN4">Rsrc/Images/ListView/Tutankhamun/Tutankhamun_4.png</file>
+        <file alias="FALCON_STATUE2">Rsrc/Images/ListView/Falcon/Statuette_of_Falcon_2.png</file>
+        <file alias="RAMESSES_OBSELIK2">Rsrc/Images/ListView/Ramsses_Obselisk/Obelisk_of_King_Ramesses_II_2.png</file>
+    </qresource>
+</RCC>
