@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appsimpleCalculator_FILE /home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug/appsimpleCalculator)
+set(__QT_DEPLOY_TARGET_appsimpleCalculator_TYPE EXECUTABLE)

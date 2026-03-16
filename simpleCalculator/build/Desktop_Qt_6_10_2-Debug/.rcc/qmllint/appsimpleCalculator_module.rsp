@@ -1,0 +1,14 @@
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug/simpleCalculator
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/mustafa/Qt/6.10.2/gcc_64/qml
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_simpleCalculator.qrc
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsimpleCalculator_raw_qml_0.qrc
+--module
+simpleCalculator

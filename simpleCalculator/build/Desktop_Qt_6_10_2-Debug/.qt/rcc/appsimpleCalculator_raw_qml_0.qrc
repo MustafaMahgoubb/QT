@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/simpleCalculator/">
+    <file alias="Main.qml">/home/mustafa/Embedded_ITI_9M/Anas/QT/simpleCalculator/Main.qml</file>
+  </qresource>
+</RCC>
+
