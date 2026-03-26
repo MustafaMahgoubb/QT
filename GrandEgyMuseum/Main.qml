@@ -21,7 +21,7 @@ ApplicationWindow {
     minimumWidth: 800
     minimumHeight: 600
 
-    color: "#1a1a2e"
+    color: "#575624"
 
     // Global StackView
     StackView {

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="WIFI_CLOSED">images/wifi_closed.png</file>
+        <file alias="WIFI_OPENED">images/wifi_open.png</file>
+        <file alias="BLUETOOTH_CLOSED">images/bluetooth_closed.png</file>
+        <file alias="BLUETOOTH_OPENED">images/bluetooth_opened.png</file>
+    </qresource>
+</RCC>
