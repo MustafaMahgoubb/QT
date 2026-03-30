@@ -19,13 +19,12 @@ public:
     Q_INVOKABLE bool disable() override;
     Q_INVOKABLE bool isEnabled() override;
 
-    Q_INVOKABLE QString findSavedConnection(const QString &ssID) override;
+    Q_INVOKABLE QString findSavedConnection(const QString &ssID);
     Q_INVOKABLE bool connectTo(const QString &target ,QString const& password) override;
     Q_INVOKABLE bool activate(QString const& path) override;
     Q_INVOKABLE bool disconnectFrom(const QString &target) override;
 
-    // WiFi specific
-    Q_INVOKABLE void scan();
+    Q_INVOKABLE void scan() override;
     Q_INVOKABLE QStringList getNetworks();
 
 signals:

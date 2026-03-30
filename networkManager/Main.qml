@@ -24,6 +24,9 @@ ApplicationWindow {
         }
         TabButton {
             text: qsTr("Bluetooth")
+            onClicked: {
+                bluetoothManager.scan()
+            }
         }
     }
 
@@ -83,10 +86,16 @@ ApplicationWindow {
                             radius: 10
                         }
 
-                        property bool btState: false
+                        property bool btState: bluetoothManager.isEnabled()
 
                         onClicked: {
-                            btState = !btState
+                            if (btState) {
+                                bluetoothManager.disable()
+                            } else {
+                                bluetoothManager.enable()
+                                bluetoothManager.scan()
+                            }
+                            btState = bluetoothManager.isEnabled()
                         }
                         Image {
                             id: btImg
@@ -137,8 +146,6 @@ ApplicationWindow {
 
                         onClicked: {
                             wifiManager.scan()
-                            // Removed manual getNetworks() call
-                            // Signal will handle it automatically!
                         }
                     }
 
@@ -238,6 +245,172 @@ ApplicationWindow {
         }
         Item {
             id: bluetoothTab
+            Rectangle
+            {
+                anchors.fill: parent
+                color: '#2b2e2d'
+
+                // Listen for devicesFound Signal
+                Connections {
+                    target: bluetoothManager
+
+                    function onDevicesFound(devices) {
+                        console.log("Devices Received:" , devices)
+                        bluetoothModel.clear()
+                        for (var i = 0 ; i < devices.length ; i++)
+                        {
+                            bluetoothModel.append({
+                                                      "name": devices[i].name,
+                                                      "paired": devices[i].paired,
+                                                      "address": devices[i].address
+                                                  })
+                        }
+                    }
+
+                    function onConfirmationRequested(deviceName, passkey) {
+                        console.log("Confirmation requested:", deviceName, passkey)
+                        pairingDialog.deviceName = deviceName
+                        pairingDialog.passkey = passkey
+                        pairingDialog.open()
+                    }
+
+                    function onPairingComplete(success) {
+                        console.log("Pairing complete:", success)
+                        pairingDialog.close()
+                        if (success) {
+                            bluetoothManager.scan()  // Refresh list
+                        }
+                    }
+
+                }
+
+                ColumnLayout {
+                    id: bluetoothListLayout
+                    anchors.fill: parent
+                    anchors.margins: 20
+                    spacing: 10
+
+                    // Scan Button
+                    Button {
+                        id: btscanButton
+                        Layout.preferredWidth: 200
+                        Layout.preferredHeight: 50
+                        text: "Scan Devices"
+
+                        background: Rectangle{
+                            color: "#575624"
+                            radius: 10
+                        }
+
+                        onClicked: {
+                            bluetoothManager.scan()
+                        }
+                    }
+
+                    ListView {
+                        id: bluetoothListView
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                        spacing: 10
+                        clip: true
+
+                        model: ListModel {
+                            id: bluetoothModel
+                        }
+
+                        delegate: Button {
+                            width: bluetoothListView.width
+                            height: 50
+
+                            background: Rectangle {
+                                color: "#3d4140"
+                                border.color: "#ffffff"
+                                border.width: 1
+                                radius: 5
+                            }
+
+                            contentItem: Text {
+                                text: model.name
+                                color: "#ffffff"
+                                verticalAlignment: Text.AlignVCenter
+                                horizontalAlignment: Text.AlignHCenter
+                            }
+
+                            onClicked: {
+                                console.log("Selected Device:" , model.name)
+                                if (model.paired === true)
+                                {
+                                    bluetoothManager.activate(model.address)
+                                }
+                                else
+                                {
+                                    bluetoothManager.pair(model.address)
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Dialog
+                {
+                    id: pairingDialog
+                    title: "Bluetooth Pairing"
+                    modal: true
+                    anchors.centerIn: parent
+
+                    property string deviceName: ""
+                    property int passkey: 0
+
+                    ColumnLayout {
+                        spacing: 15
+
+                        Text {
+                            text: "Pair with " + pairingDialog.deviceName + "?"
+                            color: "#ffffff"
+                            font.pixelSize: 16
+                        }
+
+                        Text {
+                            text: "Confirm passkey: " + pairingDialog.passkey
+                            color: "#ffff00"
+                            font.pixelSize: 20
+                            font.bold: true
+                            Layout.alignment: Qt.AlignHCenter
+                        }
+
+                        Text {
+                            text: "Make sure this code matches on your device"
+                            color: "#aaaaaa"
+                            font.pixelSize: 12
+                        }
+
+                        RowLayout {
+                            spacing: 20
+                            Layout.alignment: Qt.AlignHCenter
+
+                            Button {
+                                text: "Cancel"
+                                onClicked: {
+                                    bluetoothManager.confirmPairing(false)
+                                    pairingDialog.close()
+                                }
+                            }
+
+                            Button {
+                                text: "Pair"
+                                background: Rectangle {
+                                    color: "#575624"
+                                    radius: 5
+                                }
+                                onClicked: {
+                                    bluetoothManager.confirmPairing(true)
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
         }
     }
 }

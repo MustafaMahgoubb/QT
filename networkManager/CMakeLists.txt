@@ -4,6 +4,8 @@ project(networkManager VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
 
 
 find_package(Qt6 REQUIRED COMPONENTS Quick DBus)
@@ -21,6 +23,9 @@ qt_add_qml_module(appnetworkManager
         RESOURCES resources.qrc
         SOURCES INetworkInterface.h INetworkInterface.cpp
         SOURCES wifimanager.h wifimanager.cpp
+        SOURCES bluetoothManager.h bluetoothManager.cpp
+        SOURCES BluetoothDevice.h BluetoothDevice.cpp
+        SOURCES BluetoothAgent.h BluetoothAgent.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
