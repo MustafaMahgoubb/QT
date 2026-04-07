@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/WeatherApp/">
+    <file alias="weatherResources.qrc">/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/weatherResources.qrc</file>
+  </qresource>
+</RCC>
+

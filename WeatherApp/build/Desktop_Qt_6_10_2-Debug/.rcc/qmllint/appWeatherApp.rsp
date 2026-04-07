@@ -1,0 +1,16 @@
+--bare
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/WeatherApp
+-I
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/mustafa/Qt/6.10.2/gcc_64/qml
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_WeatherApp.qrc
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
+--resource
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appWeatherApp_raw_res_0.qrc
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/Main.qml

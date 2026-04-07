@@ -1,0 +1,15 @@
+-rootPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp
+-cmake-output
+-output-file
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appWeatherApp_conf.cmake
+-importPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/WeatherApp
+-importPath
+/home/mustafa/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_WeatherApp.qrc
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
+/home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appWeatherApp_raw_res_0.qrc

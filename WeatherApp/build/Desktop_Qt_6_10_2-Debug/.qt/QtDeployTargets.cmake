@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appWeatherApp_FILE /home/mustafa/Embedded_ITI_9M/Anas/QT/QT/WeatherApp/build/Desktop_Qt_6_10_2-Debug/appWeatherApp)
+set(__QT_DEPLOY_TARGET_appWeatherApp_TYPE EXECUTABLE)
